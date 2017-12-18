@@ -1,0 +1,87 @@
+<head>
+  <meta charset="UTF-8">
+  <title> DIV </title>
+
+<style>
+p{color: blue;}
+</style>
+
+</head>
+
+<body>
+<p>text 1</p>
+<p>text 2</p>
+</body>
+-----------------------------------------
+<style>
+  #myp1 {color: blue;}
+</style>
+
+</head>
+
+<body>
+<p id="myp1">text 1</p>
+<p>text 2</p>
+
+</body>
+
+-----------------------------------------
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> DIV </title>
+
+<style>
+  #myp1 {color: blue;}
+  .colorp{background-color: red;}
+  .text{color: green;}
+</style>
+
+</head>
+
+<body>
+<p id="myp1">text 1</p>
+<p>text 2</p>
+<p class="colorp text" >text 3</p>
+<p class=" text">text 4</p>
+<p>text 5</p>
+
+</body>
+
+-----------------------------------------
+
+style.css
+#myp1 {color: blue;}
+.colorp{background-color: red;}
+.text{color: green;}
+
+*****************************************
+<head>
+  <meta charset="UTF-8">
+  <title> DIV </title>
+<link href="style.css"rel="styleSheet" />
+
+-----------------------------------------
+style css
+p span {color: coral;}
+*****************************************
+<body>
+<p ><span>text 1111</span></p>
+<p><span>text 2</span></p>
+
+</body>
+-----------------------------------------
+div - блочна верстка
+style.css
+#div{height: 100px;width: 100px;background-color: blue;float: left;}
+#div2 {height: 100px;width: 100px;background-color: red;float: left;}
+*****************************************
+<body>
+<div id="div"></div>
+<div id="div2"></div>
+</body>
+
+-----------------------------------------

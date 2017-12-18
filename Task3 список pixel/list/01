@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> 01 </title>
+</head>
+
+<body>
+
+
+<ul>
+<li> Languages</li>
+<ul>
+<li type="circle">Ruby</li>
+<li type="circle">html</li>
+<li type="circle">CSS</li>
+<li type="circle">PHP</li>
+<li type="circle">JAVASCRIPT</li>
+<li type="circle">C++</li>
+</ul>
+</ul>
+
+<ul>
+<li> Browzers</li>
+<ul>
+<li type="circle">Chrome</li>
+<li type="circle">Opera</li>
+<li type="circle">IE</li>
+<li type="circle">FireFox</li>
+<li type="circle">Safari</li>
+</ul>
+</ul>
+
+<ul>
+<li> Operations Systems</li>
+<ul>
+<li type="circle">Windows</li>
+<li type="circle">Linux</li>
+<li type="circle">FreeBSD</li>
+<li type="circle">MacOS</li>
+</ul>
+</ul>
+
+<ul>
+<li> Other</li>
+</ul>
+
+
+
+
+</ul>
+
+
+
+
+
+</body>

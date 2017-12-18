@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang "en">
+<head>
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="..." />
+<script src="...js"></script>
+  <title> 03 </title>
+</head>
+
+<body>
+<header>
+
+
+</header>
+
+<article>
+<!--тіло -->
+
+</article>
+<footer>
+  <!--контактна інформація -->
+</footer>
+<aside>
+  <!--посилання на статті -->
+
+</aside>
+<nav>
+    <!--меню -->
+</nav>
+
+<hgroup>
+    <!--групування заголовків -->
+</hgroup>
+<section>
+    <!--описати всі теги -->
+</section>
+
+<time datetime="2017"></time>
+<address>
+    <!--для поміщати контакти -->
+</address>
+<input type=""
+<!-- tel,datatime,week,number 0-10, range, search, color -->
+
+<form id="auth"></form>
+<input type="text" form="auth" />
+<input type="submit" form="auth" />
+<br>
+<progress min="0" max="100" value="25"> </progress>
+<br>
+<video src="video.mp4"></video>
+<audio src="music.mp3"></audio>
+
+<input list="mylist" />
+<datalist id="mylist">
+<option label="Kia"></option>
+<option label="BMW"></option>
+<option label="Mazda"></option>
+</datalist>
+
+
+
+
+
+</body>

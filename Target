@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> 03 </title>
+
+
+
+</head>
+
+<body>
+
+<p id="one">Lorem</p>
+<p id="two">Lorem</p>
+
+<a href="#one">P1</a>
+<br>
+<a href="#two">P2</a>
+
+<style>
+
+p:target{color: red}
+
+</style>
+
+
+
+
+</body>

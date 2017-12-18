@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> practic 3 </title>
+</head>
+
+<body>
+  <!-- списки-->
+<ul type="square"><!-- пунктири-->
+<li>Text1</li>
+<li>Text2</li>
+<li type="circle">Text4</li>
+</ul>
+<ol>
+  <li>Text1</li>
+<li>Text2</li>
+<li>Text3</li>
+</ol>
+
+<ol type="I" start="2">
+  <li>Text1</li>
+<li>Text2</li>
+<li>Text3</li>
+</ol>
+
+<!-- новий варіант немаркованого списку-->
+<ol style="list-style-type:upper-alpha" ><!-- decimal / upper-alpha, lower-->
+  <li>Text1</li>
+<li>Text2</li>
+<li>Text3</li>
+</ol>
+
+<!--вкладені списки -->
+<ol type="1" >
+<li>Text1</li>
+<li>Text2</li>
+  <ul>
+      <li>Text3</li>
+      <li>Text4</li>
+  </ul>
+<li>Text5</li>
+
+</ol>
+
+
+
+</body>

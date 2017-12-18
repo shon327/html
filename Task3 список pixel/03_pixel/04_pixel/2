@@ -1,0 +1,10 @@
+<html style="height:100%">
+<body style="height:100%">
+<img src="../chris-rock.jpg" alt="I can not find this image"
+style="height:70%" />
+<body style="background-image:url(../chris-rock.jpg)"background-repeat:repeat-x>
+<body style="background-image:url(../chris-rock.jpg);background-size:cover">
+<body style="background-image:url(../chris-rock.jpg);background-attachment:fixed">
+
+<body style="background-image:url(../chris-rock.jpg);background-position:center center;background-repeat:no-repeat">
+body тіло

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> pixel </title>
+</head>
+
+<body>
+
+
+<!-- завантаження картинки  -->
+<ol style="list-style-image:url(images.jpg)">
+  <li>Text1</li>
+</ol>
+<ol style="list-style-image:url(chris-rock.jpg)">
+  <li>Text2</li>
+</ol>
+
+
+
+
+
+
+
+</body>

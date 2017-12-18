@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> 03 </title>
+</head>
+
+<body>
+
+
+<ol type="I">
+<li> List Item 1</li>
+
+<ol style="list-style-type:lower-alpha" >
+<li> Nested Item 1.1</li>
+<li> Nested Item 1.2</li>
+</ol>
+
+<li> List Item 2</li>
+<ol style="list-style-type:decimal" >
+<li> Nested Item 2.1</li>
+<li> Nested Item 2.2</li>
+
+<ol>
+<li type="circle">Nested Item 2.2.1</li>
+<li type="circle">Nested Item 2.2.2</li>
+<ol>
+<li type="square">Nested Item 2.2.2.1</li>
+<li type="square">Nested Item 2.2.2.2</li>
+</ol>
+<li type="circle">Nested Item 2.2.3</li>
+</ol>
+</ol>
+<ol style="list-style-type:decimal"start="3" >
+<li> Nested Item 2.1</li>
+
+
+</ol>
+</ol>
+<ol type="I"start="3">
+<li> List Item 3</li>
+<ol style="list-style-type:decimal" >
+
+<li> Nested Item 3.1</li>
+<li> Nested Item 3.1</li>
+<li> Nested Item 3.1</li>
+
+</ol>
+
+
+
+</body>

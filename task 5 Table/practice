@@ -1,0 +1,54 @@
+
+<tr> - дядок
+<td> - клітинка
+
+
+
+<!-- border малює лінії -->
+<table style="background-color:lightgreen" border="1"  >
+<tr>
+  <td>Cell 1</td>
+  <td>Cell 2</td>
+</tr>
+<tr>
+  <td>Cell 3</td>
+  <td>Cell 4</td>
+</tr>
+</table>
+
+
+
+
+<style>
+table,tr,td{border:1px solid black; background-color:lightgreen;}
+
+td{width:100px;}
+
+</style>
+------------------------------------------------------------
+
+
+<table>
+
+<tr>
+  <td colspan="4">Text 1</td>
+
+</tr>
+<tr>
+  <td colspan="2">Text 2</td>
+  <td colspan="2">Text 3</td>
+</tr>
+<tr>
+  <td >Text 4</td>
+  <td colspan="2">Text 5</td>
+  <td >Text 6</td>
+</tr>
+
+<tr>
+  <td >Text 7</td>
+  <td colspan="3">Text 8</td>
+</tr>
+
+</table>
+
+------------------------------------------------

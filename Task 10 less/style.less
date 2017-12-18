@@ -1,0 +1,43 @@
+.one
+{
+  color: blue;
+  &:hover{font-size: 30pt}
+&-first{background-color: orange;}
+&-second{background-color:yellowgreen ;}
+}
+.two
+{
+  &:extend(.one);
+
+  background-color: yellow;
+}
+
+@color:brown;
+.paint{
+color: @color;
+}
+
+@color2:black;
+.local{
+  @color2:red;
+  color:@color2
+}
+
+@w:1px;
+.mydiv{
+  height: 70px;
+  height: 100px;
+  border-width: @w @w+10 @w+20 @w+30;
+  border-style: solid;
+  border-color:black;
+}
+
+.temp{
+  color:lightyellow
+}
+
+.paint1{
+  .temp;
+
+  background-color: grey;
+}

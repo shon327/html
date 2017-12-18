@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> 04-05 </title>
+</head>
+
+<body>
+
+
+<ol style="list-style-type:decimal" >
+  <span style=color:blue>
+<li>Winter</li>
+
+  <ol style="list-style-type:upper-alpha" >
+    <li>December</li>
+    <li>January</li>
+    <li>February</li>
+  </ol>
+</span>
+
+<span style=color:green>
+<li>Spring</li>
+  <ol style="list-style-type:lower-alpha" >
+    <li>March</li>
+    <li>April</li>
+    <li>May</li>
+  </ol>
+</span>
+
+<span style=color:yellow>
+<li>Summer</li>
+  <ol style="list-style-type:upper-roman" >
+    <li>June</li>
+    <li>July</li>
+    <li>August</li>
+</ol>
+</span>
+
+<span style=color:orange>
+<li>Autumn</li>
+<ol style="list-style-type:lower-roman" >
+  <li>September</li>
+  <li>October</li>
+  <li>November</li>
+</ol>
+</span>
+
+<br>
+<h1>Nested Ordered List </h1>
+
+<ol style="list-style-type:upper-roman" >
+  <li>Headings</li>
+
+
+<li>Basic Text Sections</li>
+
+
+<li>List</li>
+
+    <ol style="list-style-type:upper-alpha" >
+      <li>Ordered</li>
+          <ol style="list-style-type:decimal" >
+              <li>The OL tag</li>
+                    <ol style="list-style-type:lower-alpha" >
+                        <li>TYPE</li>
+                        <li>START</li>
+                        <li>COMPACT</li>
+                    </ol>
+
+              <li>The LI tag</li>
+          </ol>
+
+
+<li>Unordered</li>
+  <ol style="list-style-type:decimal" >
+  <li>The LI tag</li>
+  <li>The UL tag</li>
+</ol>
+
+
+      <li>Definition</li>
+      <ol style="list-style-type:decimal" >
+      <li>The DL tag</li>
+      <li>The DT tag</li>
+      <li>The DD tag</li>
+      </ol>
+
+    </ol>
+
+<li>Miscellaneuous</li>
+
+
+
+    </ol>
+</body>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> 03 </title>
+  <link href="style.css" rel="stylesheet" />
+<link href="font-awesome/css/font-awesome.css"
+ rel="stylesheet" />
+
+<body>
+
+<form >
+
+
+  Name:<input type="text"/> <br>
+  Password:<input type="password" required="required"/><br>
+  Commant:<textarea > enter text </textarea><br>
+<br>
+  <input type="radio" name="A" /> a
+  <input type="radio" name="A"/>B
+<br><button type="button"name="button"/> press</button>
+<br><input type="checkbox" name="A" /> a
+<select>
+<option>Text 1 </option>
+<option>Text 2 </option>
+</select>
+
+</form>
+
+
+
+
+
+</body>
